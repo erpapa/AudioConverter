@@ -10,6 +10,22 @@
 		EA081C451EEFC04F00211E93 /* AudioConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C3B1EEFC04F00211E93 /* AudioConverter.framework */; };
 		EA081C4A1EEFC04F00211E93 /* AudioConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA081C491EEFC04F00211E93 /* AudioConverterTests.m */; };
 		EA081C4C1EEFC04F00211E93 /* AudioConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C3E1EEFC04F00211E93 /* AudioConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA081C561EEFC09A00211E93 /* AudioConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA081C551EEFC09A00211E93 /* AudioConverter.mm */; };
+		EA081C741EEFC0BE00211E93 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C731EEFC0BE00211E93 /* AVFoundation.framework */; };
+		EA081C761EEFC0CA00211E93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C751EEFC0CA00211E93 /* Foundation.framework */; };
+		EA081C861EEFC10300211E93 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C791EEFC10300211E93 /* lame.h */; };
+		EA081C871EEFC10300211E93 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C7A1EEFC10300211E93 /* libmp3lame.a */; };
+		EA081C881EEFC10300211E93 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C7C1EEFC10300211E93 /* amrFileCodec.h */; };
+		EA081C891EEFC10300211E93 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA081C7D1EEFC10300211E93 /* amrFileCodec.mm */; };
+		EA081C8A1EEFC10300211E93 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C7E1EEFC10300211E93 /* dec_if.h */; };
+		EA081C8B1EEFC10300211E93 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C7F1EEFC10300211E93 /* if_rom.h */; };
+		EA081C8C1EEFC10300211E93 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C801EEFC10300211E93 /* interf_dec.h */; };
+		EA081C8D1EEFC10300211E93 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C811EEFC10300211E93 /* interf_enc.h */; };
+		EA081C8E1EEFC10300211E93 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C821EEFC10300211E93 /* libopencore-amrnb.a */; };
+		EA081C8F1EEFC10300211E93 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C831EEFC10300211E93 /* libopencore-amrwb.a */; };
+		EA081C901EEFC10300211E93 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = EA081C841EEFC10300211E93 /* wav.h */; };
+		EA081C911EEFC10300211E93 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA081C851EEFC10300211E93 /* wav.mm */; };
+		EA081C931EEFC13A00211E93 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA081C921EEFC13A00211E93 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +45,22 @@
 		EA081C441EEFC04F00211E93 /* AudioConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA081C491EEFC04F00211E93 /* AudioConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioConverterTests.m; sourceTree = "<group>"; };
 		EA081C4B1EEFC04F00211E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA081C551EEFC09A00211E93 /* AudioConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioConverter.mm; sourceTree = "<group>"; };
+		EA081C731EEFC0BE00211E93 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA081C751EEFC0CA00211E93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA081C791EEFC10300211E93 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		EA081C7A1EEFC10300211E93 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		EA081C7C1EEFC10300211E93 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		EA081C7D1EEFC10300211E93 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		EA081C7E1EEFC10300211E93 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		EA081C7F1EEFC10300211E93 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		EA081C801EEFC10300211E93 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		EA081C811EEFC10300211E93 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		EA081C821EEFC10300211E93 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		EA081C831EEFC10300211E93 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		EA081C841EEFC10300211E93 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		EA081C851EEFC10300211E93 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		EA081C921EEFC13A00211E93 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA081C931EEFC13A00211E93 /* CoreMedia.framework in Frameworks */,
+				EA081C871EEFC10300211E93 /* libmp3lame.a in Frameworks */,
+				EA081C8F1EEFC10300211E93 /* libopencore-amrwb.a in Frameworks */,
+				EA081C8E1EEFC10300211E93 /* libopencore-amrnb.a in Frameworks */,
+				EA081C761EEFC0CA00211E93 /* Foundation.framework in Frameworks */,
+				EA081C741EEFC0BE00211E93 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +94,7 @@
 				EA081C3D1EEFC04F00211E93 /* AudioConverter */,
 				EA081C481EEFC04F00211E93 /* AudioConverterTests */,
 				EA081C3C1EEFC04F00211E93 /* Products */,
+				EA081C721EEFC0BE00211E93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +110,9 @@
 		EA081C3D1EEFC04F00211E93 /* AudioConverter */ = {
 			isa = PBXGroup;
 			children = (
+				EA081C771EEFC10300211E93 /* vendors */,
 				EA081C3E1EEFC04F00211E93 /* AudioConverter.h */,
+				EA081C551EEFC09A00211E93 /* AudioConverter.mm */,
 				EA081C3F1EEFC04F00211E93 /* Info.plist */,
 			);
 			path = AudioConverter;
@@ -86,6 +127,51 @@
 			path = AudioConverterTests;
 			sourceTree = "<group>";
 		};
+		EA081C721EEFC0BE00211E93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA081C921EEFC13A00211E93 /* CoreMedia.framework */,
+				EA081C751EEFC0CA00211E93 /* Foundation.framework */,
+				EA081C731EEFC0BE00211E93 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA081C771EEFC10300211E93 /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				EA081C781EEFC10300211E93 /* lame */,
+				EA081C7B1EEFC10300211E93 /* libopencore */,
+			);
+			path = vendors;
+			sourceTree = "<group>";
+		};
+		EA081C781EEFC10300211E93 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				EA081C791EEFC10300211E93 /* lame.h */,
+				EA081C7A1EEFC10300211E93 /* libmp3lame.a */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		EA081C7B1EEFC10300211E93 /* libopencore */ = {
+			isa = PBXGroup;
+			children = (
+				EA081C7C1EEFC10300211E93 /* amrFileCodec.h */,
+				EA081C7D1EEFC10300211E93 /* amrFileCodec.mm */,
+				EA081C7E1EEFC10300211E93 /* dec_if.h */,
+				EA081C7F1EEFC10300211E93 /* if_rom.h */,
+				EA081C801EEFC10300211E93 /* interf_dec.h */,
+				EA081C811EEFC10300211E93 /* interf_enc.h */,
+				EA081C821EEFC10300211E93 /* libopencore-amrnb.a */,
+				EA081C831EEFC10300211E93 /* libopencore-amrwb.a */,
+				EA081C841EEFC10300211E93 /* wav.h */,
+				EA081C851EEFC10300211E93 /* wav.mm */,
+			);
+			path = libopencore;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +179,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA081C8A1EEFC10300211E93 /* dec_if.h in Headers */,
+				EA081C901EEFC10300211E93 /* wav.h in Headers */,
 				EA081C4C1EEFC04F00211E93 /* AudioConverter.h in Headers */,
+				EA081C881EEFC10300211E93 /* amrFileCodec.h in Headers */,
+				EA081C8C1EEFC10300211E93 /* interf_dec.h in Headers */,
+				EA081C8B1EEFC10300211E93 /* if_rom.h in Headers */,
+				EA081C861EEFC10300211E93 /* lame.h in Headers */,
+				EA081C8D1EEFC10300211E93 /* interf_enc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA081C561EEFC09A00211E93 /* AudioConverter.mm in Sources */,
+				EA081C911EEFC10300211E93 /* wav.mm in Sources */,
+				EA081C891EEFC10300211E93 /* amrFileCodec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +423,11 @@
 				INFOPLIST_FILE = AudioConverter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioConverter/vendors/lame",
+					"$(PROJECT_DIR)/AudioConverter/vendors/libopencore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erpapa.AudioConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -345,6 +446,11 @@
 				INFOPLIST_FILE = AudioConverter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioConverter/vendors/lame",
+					"$(PROJECT_DIR)/AudioConverter/vendors/libopencore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erpapa.AudioConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
